@@ -101,6 +101,23 @@ http://localhost:5000/index.html
 - ответ сохраняется в `request.db`
 - история загружается через `GET /requests`
 
+## Где получить Gemini API key
+
+Если у вас еще нет ключа, сделайте так:
+
+1. Перейдите на сайт `https://aistudio.google.com/api-keys`
+2. Войдите в Google-аккаунт, если сервис попросит авторизацию
+3. Нажмите кнопку создания ключа, обычно это `Create API key`
+4. Скопируйте сгенерированный ключ
+5. Откройте файл `.env`
+6. Вставьте ключ в строку:
+
+```env
+GEMINI_API_KEY=your_real_key_here
+```
+
+7. Сохраните файл и перезапустите backend
+
 ## Частые проблемы
 
 ### `GEMINI_API_KEY is not configured`
