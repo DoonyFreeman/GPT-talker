@@ -1,0 +1,1 @@
+TODO: Подключить бд: https://youtu.be/hPQzi8RT7ic?t=1319
