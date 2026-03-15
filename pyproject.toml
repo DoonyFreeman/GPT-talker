@@ -1,7 +1,7 @@
 [project]
 name = "gpt-talker"
 version = "0.1.0"
-description = "Add your description here"
+description = "Local FastAPI + Gemini chat with request history and a single-file frontend"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
