@@ -1,7 +1,8 @@
-
+import os
 
 
 class Config:
-    gemini_api_key = "AIzaSyALvikXwUzw_eT8VRe_lBbZP_qf0Hf5ZlI"
+    gemini_api_key = os.getenv("GEMINI_API_KEY", "").strip()
+
 
 config_obj = Config()
